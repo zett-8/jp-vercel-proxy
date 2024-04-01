@@ -1,0 +1,6 @@
+{
+  "version": 2,
+  "builds": [{ "src": "proxy.ts", "use": "@vercel/node" }],
+  "regions": ["hnd1"],
+  "routes": [{ "src": "/.*", "dest": "/proxy.ts" }]
+}
