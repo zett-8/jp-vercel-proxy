@@ -15,7 +15,7 @@ app.use('/', async (req, res) => {
 
     try {
         const response = await axios.get(HOST, {
-            responseType: 'text'  // レスポンスをテキストとして取得
+            responseType: 'text'  // get response as text
         });
         return res.send(response.data);
     } catch (e) {
