@@ -8,7 +8,7 @@
 ```shell
 npm run link
 ```
-1. Deploy
+2. Deploy
 ```shell
 npm run deploy
 ```
